@@ -74,13 +74,27 @@ npm install
 # 4. Generate the Fineract API client from OpenAPI spec
 npm run generate-sdk
 
-# 5. Start the development server
+# 5. Start the development server (runs on http://localhost:10706)
 npm run dev
 ```
+
+The web app will open at **`http://localhost:10706`**.
+
+---
+
+## Default Credentials
+
+| Field             | Value      |
+| ----------------- | ---------- |
+| Username          | `mifos`    |
+| Password          | `password` |
+| Tenant Identifier | `default`  |
 
 ---
 
 ## � Docker Deployment
+
+> Set Docker RAM to 4 GB in Docker settings.
 
 ### Quick Start with Docker Compose
 
